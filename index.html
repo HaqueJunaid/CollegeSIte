@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <nav>
+            <img src="Images/logo.png" alt="">
+            <div class="links" id="links">
+                <i class="ri-close-line" onclick="hide()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="cources.html">Cources</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="ri-menu-line" onclick="show()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's biggest Univerty</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quod, autem consequatur quidem
+                assumenda<br>saepe neque beatae hic ex quia.</p>
+            <a href="" class="button">Explore More</a>
+        </div>
+    </div>
+
+    <div class="cources">
+        <h1>Cources We Offer</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <div class="cards">
+            <div class="card">
+                <h1>Intermediate</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fugiat voluptatibus a doloremque eveniet earum architecto sed dignissimos nisi id tempore exercitationem sint vel nobis, modi sit cupiditate cumque laudantium neque illo nam porro.</p>
+            </div>
+            <div class="card">
+                <h1>Degree</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fugiat voluptatibus a doloremque eveniet earum architecto sed dignissimos nisi id tempore exercitationem sint vel nobis, modi sit cupiditate cumque laudantium neque illo nam porro.</p>
+            </div>
+            <div class="card">
+                <h1>Post Graduate</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fugiat voluptatibus a doloremque eveniet earum architecto sed dignissimos nisi id tempore exercitationem sint vel nobis, modi sit cupiditate cumque laudantium neque illo nam porro.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe?</p>
+        <div class="images">
+            <div class="image">
+                <div class="overlay">
+                    <h1>London</h1>
+                </div>
+                <img src="Images/newyork.png" alt="">
+            </div>
+            <div class="image">
+                <div class="overlay">
+                    <h1>New York</h1>
+                </div>
+                <img src="Images/london.png" alt="">
+            </div>
+            <div class="image">
+                <div class="overlay">
+                    <h1>Washington</h1>
+                </div>
+                <img src="Images/washington.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var links = document.getElementById("links")
+
+        function hide() {
+            links.style.right = "-200px"
+        }
+        function show() {
+            links.style.right = "0"
+        }
+    </script>
+</body>
+
+</html>
